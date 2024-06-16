@@ -24,8 +24,8 @@ class DatabaseSeeder extends Seeder
             'email' => 'test@example.com',
         ]);
 
-//        $this->createGuestModePost();
-//        $this->createAuthModePost();
+        $this->createGuestModePost();
+        $this->createAuthModePost();
     }
 
     public function createGuestModePost(): void
