@@ -2197,12 +2197,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Lakshan-Madushanka/laravel-comments.git",
-                "reference": "2472d8c44b0bdfeef9635fc7a14ae3091059373e"
+                "reference": "7c60ce3271929e20ce2131395007b98045159cae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Lakshan-Madushanka/laravel-comments/zipball/2472d8c44b0bdfeef9635fc7a14ae3091059373e",
-                "reference": "2472d8c44b0bdfeef9635fc7a14ae3091059373e",
+                "url": "https://api.github.com/repos/Lakshan-Madushanka/laravel-comments/zipball/7c60ce3271929e20ce2131395007b98045159cae",
+                "reference": "7c60ce3271929e20ce2131395007b98045159cae",
                 "shasum": ""
             },
             "require": {
@@ -2254,7 +2254,7 @@
                 "issues": "https://github.com/Lakshan-Madushanka/laravel-comments/issues",
                 "source": "https://github.com/Lakshan-Madushanka/laravel-comments/tree/main"
             },
-            "time": "2024-06-16T18:52:00+00:00"
+            "time": "2024-06-16T21:31:37+00:00"
         },
         {
             "name": "lakm/laravel-comments-admin-panel",
@@ -10307,6 +10307,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "lakm/laravel-comments": 20,
         "lakm/laravel-comments-admin-panel": 20
     },
     "prefer-stable": true,
