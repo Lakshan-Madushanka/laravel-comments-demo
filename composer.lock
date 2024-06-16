@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bbc8578b4d4f6b4754317966f43ff2d8",
+    "content-hash": "f18c8d3f1d6796af80c682d6970d48bc",
     "packages": [
         {
             "name": "anourvalar/eloquent-serialize",
@@ -353,16 +353,16 @@
         },
         {
             "name": "danharrin/date-format-converter",
-            "version": "v0.3.0",
+            "version": "v0.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/danharrin/date-format-converter.git",
-                "reference": "42b6ddc52059d4ba228a67c15adaaa0c039e75f2"
+                "reference": "7c31171bc981e48726729a5f3a05a2d2b63f0b1e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/danharrin/date-format-converter/zipball/42b6ddc52059d4ba228a67c15adaaa0c039e75f2",
-                "reference": "42b6ddc52059d4ba228a67c15adaaa0c039e75f2",
+                "url": "https://api.github.com/repos/danharrin/date-format-converter/zipball/7c31171bc981e48726729a5f3a05a2d2b63f0b1e",
+                "reference": "7c31171bc981e48726729a5f3a05a2d2b63f0b1e",
                 "shasum": ""
             },
             "require": {
@@ -400,7 +400,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-09-29T07:48:20+00:00"
+            "time": "2024-06-13T09:38:44+00:00"
         },
         {
             "name": "dflydev/dot-access-data",
@@ -1119,16 +1119,16 @@
         },
         {
             "name": "filament/actions",
-            "version": "v3.2.88",
+            "version": "v3.2.91",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filamentphp/actions.git",
-                "reference": "483557cc10c84c8536e12280da7855bf53c2a4e2"
+                "reference": "99bf5ed84e3a563250775c223928b185db0d4b7a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/filamentphp/actions/zipball/483557cc10c84c8536e12280da7855bf53c2a4e2",
-                "reference": "483557cc10c84c8536e12280da7855bf53c2a4e2",
+                "url": "https://api.github.com/repos/filamentphp/actions/zipball/99bf5ed84e3a563250775c223928b185db0d4b7a",
+                "reference": "99bf5ed84e3a563250775c223928b185db0d4b7a",
                 "shasum": ""
             },
             "require": {
@@ -1168,20 +1168,20 @@
                 "issues": "https://github.com/filamentphp/filament/issues",
                 "source": "https://github.com/filamentphp/filament"
             },
-            "time": "2024-06-10T12:07:37+00:00"
+            "time": "2024-06-14T10:24:05+00:00"
         },
         {
             "name": "filament/forms",
-            "version": "v3.2.88",
+            "version": "v3.2.91",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filamentphp/forms.git",
-                "reference": "f58cc7d23ef2df1594f13d01e8dd016ed9033803"
+                "reference": "8708f598cf0bc1e747a8f59626d7166c7c94f149"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/filamentphp/forms/zipball/f58cc7d23ef2df1594f13d01e8dd016ed9033803",
-                "reference": "f58cc7d23ef2df1594f13d01e8dd016ed9033803",
+                "url": "https://api.github.com/repos/filamentphp/forms/zipball/8708f598cf0bc1e747a8f59626d7166c7c94f149",
+                "reference": "8708f598cf0bc1e747a8f59626d7166c7c94f149",
                 "shasum": ""
             },
             "require": {
@@ -1224,20 +1224,20 @@
                 "issues": "https://github.com/filamentphp/filament/issues",
                 "source": "https://github.com/filamentphp/filament"
             },
-            "time": "2024-06-10T12:07:33+00:00"
+            "time": "2024-06-14T10:24:06+00:00"
         },
         {
             "name": "filament/infolists",
-            "version": "v3.2.88",
+            "version": "v3.2.91",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filamentphp/infolists.git",
-                "reference": "82f96586e082905a7c86362e83309829f0d23bd0"
+                "reference": "59909a1206fb9961f7bd3ceb993b7e7a0c4d2215"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/filamentphp/infolists/zipball/82f96586e082905a7c86362e83309829f0d23bd0",
-                "reference": "82f96586e082905a7c86362e83309829f0d23bd0",
+                "url": "https://api.github.com/repos/filamentphp/infolists/zipball/59909a1206fb9961f7bd3ceb993b7e7a0c4d2215",
+                "reference": "59909a1206fb9961f7bd3ceb993b7e7a0c4d2215",
                 "shasum": ""
             },
             "require": {
@@ -1275,11 +1275,11 @@
                 "issues": "https://github.com/filamentphp/filament/issues",
                 "source": "https://github.com/filamentphp/filament"
             },
-            "time": "2024-06-10T12:07:27+00:00"
+            "time": "2024-06-13T07:04:01+00:00"
         },
         {
             "name": "filament/notifications",
-            "version": "v3.2.88",
+            "version": "v3.2.91",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filamentphp/notifications.git",
@@ -1331,16 +1331,16 @@
         },
         {
             "name": "filament/support",
-            "version": "v3.2.88",
+            "version": "v3.2.91",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filamentphp/support.git",
-                "reference": "a62d52739d661042123da30fa2b8e64e46bef901"
+                "reference": "852ec3783349d799141c302a4944d5303ece985d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/filamentphp/support/zipball/a62d52739d661042123da30fa2b8e64e46bef901",
-                "reference": "a62d52739d661042123da30fa2b8e64e46bef901",
+                "url": "https://api.github.com/repos/filamentphp/support/zipball/852ec3783349d799141c302a4944d5303ece985d",
+                "reference": "852ec3783349d799141c302a4944d5303ece985d",
                 "shasum": ""
             },
             "require": {
@@ -1385,20 +1385,20 @@
                 "issues": "https://github.com/filamentphp/filament/issues",
                 "source": "https://github.com/filamentphp/filament"
             },
-            "time": "2024-06-10T12:07:53+00:00"
+            "time": "2024-06-14T10:24:22+00:00"
         },
         {
             "name": "filament/tables",
-            "version": "v3.2.88",
+            "version": "v3.2.91",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filamentphp/tables.git",
-                "reference": "53a7074f6d86957923e4c8be8599788ad66127d3"
+                "reference": "34ea607f95e45d0bf9580d47294a179b1457e0e6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/filamentphp/tables/zipball/53a7074f6d86957923e4c8be8599788ad66127d3",
-                "reference": "53a7074f6d86957923e4c8be8599788ad66127d3",
+                "url": "https://api.github.com/repos/filamentphp/tables/zipball/34ea607f95e45d0bf9580d47294a179b1457e0e6",
+                "reference": "34ea607f95e45d0bf9580d47294a179b1457e0e6",
                 "shasum": ""
             },
             "require": {
@@ -1438,7 +1438,7 @@
                 "issues": "https://github.com/filamentphp/filament/issues",
                 "source": "https://github.com/filamentphp/filament"
             },
-            "time": "2024-06-11T07:03:06+00:00"
+            "time": "2024-06-13T07:04:15+00:00"
         },
         {
             "name": "fruitcake/php-cors",
@@ -2197,19 +2197,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Lakshan-Madushanka/laravel-comments.git",
-                "reference": "455ff14bb26976940ff21d3d8c7d7cf1908466b2"
+                "reference": "2472d8c44b0bdfeef9635fc7a14ae3091059373e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Lakshan-Madushanka/laravel-comments/zipball/455ff14bb26976940ff21d3d8c7d7cf1908466b2",
-                "reference": "455ff14bb26976940ff21d3d8c7d7cf1908466b2",
+                "url": "https://api.github.com/repos/Lakshan-Madushanka/laravel-comments/zipball/2472d8c44b0bdfeef9635fc7a14ae3091059373e",
+                "reference": "2472d8c44b0bdfeef9635fc7a14ae3091059373e",
                 "shasum": ""
             },
             "require": {
                 "graham-campbell/security": "11.2",
                 "laravel/framework": "^10.0|^11.0",
                 "livewire/livewire": "^3.4",
-                "php": "^8.0|^8.1|^8.2",
+                "php": "^8.1|^8.2|^8.3",
                 "spatie/laravel-honeypot": "^4.5"
             },
             "require-dev": {
@@ -2254,26 +2254,32 @@
                 "issues": "https://github.com/Lakshan-Madushanka/laravel-comments/issues",
                 "source": "https://github.com/Lakshan-Madushanka/laravel-comments/tree/main"
             },
-            "time": "2024-06-07T11:28:52+00:00"
+            "time": "2024-06-16T18:52:00+00:00"
         },
         {
             "name": "lakm/laravel-comments-admin-panel",
-            "version": "dev-main",
+            "version": "1.0.0-beta",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Lakshan-Madushanka/laravel-comments-admin-panel.git",
+                "reference": "fb60d36da0b37e9b0ed3a358b8c6cc51470c5ec9"
+            },
             "dist": {
-                "type": "path",
-                "url": "D:/Packages/lakm/laravel-comments-admin-panel",
-                "reference": "066cbcf73b47e5e9e1002452dcd8670374276e3d"
+                "type": "zip",
+                "url": "https://api.github.com/repos/Lakshan-Madushanka/laravel-comments-admin-panel/zipball/fb60d36da0b37e9b0ed3a358b8c6cc51470c5ec9",
+                "reference": "fb60d36da0b37e9b0ed3a358b8c6cc51470c5ec9",
+                "shasum": ""
             },
             "require": {
                 "filament/notifications": "^3.2",
                 "filament/tables": "^3.2",
                 "lakm/laravel-comments": "dev-main",
                 "laravel/framework": "^10.0|^11.0",
-                "php": "^8.0|^8.1|^8.2"
+                "php": "^8.1|^8.2|^8.3"
             },
             "require-dev": {
-                "larastan/larastan": "2.x-dev",
-                "orchestra/testbench": "8.x-dev",
+                "larastan/larastan": "2.*",
+                "orchestra/testbench": "8.*",
                 "pestphp/pest": "^2.34",
                 "pestphp/pest-plugin-laravel": "^2.3",
                 "pestphp/pest-plugin-livewire": "^2.1"
@@ -2291,16 +2297,7 @@
                     "LakM\\Comments\\AdminPanel\\": "src/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "LakM\\Comments\\AdminPanel\\Tests\\": "tests/"
-                }
-            },
-            "scripts": {
-                "analyze": [
-                    "./vendor/bin/phpstan analyse"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -2313,16 +2310,17 @@
             ],
             "description": "Integrate seamless commenting functionality into your Laravel project.",
             "keywords": [
-                "Admin",
-                "Alpine.js",
-                "Livewire",
+                "admin",
+                "alpine.js",
                 "comments",
-                "laravel"
+                "laravel",
+                "livewire"
             ],
-            "transport-options": {
-                "symlink": true,
-                "relative": false
-            }
+            "support": {
+                "issues": "https://github.com/Lakshan-Madushanka/laravel-comments-admin-panel/issues",
+                "source": "https://github.com/Lakshan-Madushanka/laravel-comments-admin-panel/tree/1.0.0-beta"
+            },
+            "time": "2024-06-15T13:26:08+00:00"
         },
         {
             "name": "laravel/framework",
@@ -10309,7 +10307,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "lakm/laravel-comments": 20
+        "lakm/laravel-comments-admin-panel": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

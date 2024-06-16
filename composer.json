@@ -10,7 +10,7 @@
         "filament/tables": "^3.2",
         "graham-campbell/security": "*",
         "lakm/laravel-comments": "dev-main",
-        "lakm/laravel-comments-admin-panel": "dev-main",
+        "lakm/laravel-comments-admin-panel": "@dev",
         "laravel/framework": "^11.9",
         "laravel/tinker": "^2.9",
         "livewire/livewire": "^3.5",
