@@ -25,6 +25,13 @@ Create database.sqlite in database directory
 ```bash
     php artisan migrate:fresh --seed
 ```
+Install Commenter
+
+```bash
+php artisan commenter:install
+```
+
+Install npm dependencies and start dev server
 
 ```bash
     npm install
