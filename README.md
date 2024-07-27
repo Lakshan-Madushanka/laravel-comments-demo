@@ -23,6 +23,7 @@ Install composer dependencies,
 Create database.sqlite in database directory
 
 ```bash
+    php artisan key:generate
     php artisan migrate:fresh --seed
 ```
 Install Commenter
