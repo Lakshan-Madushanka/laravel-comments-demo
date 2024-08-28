@@ -9,8 +9,8 @@
         "filament/notifications": "^3.2",
         "filament/tables": "^3.2",
         "graham-campbell/security": "*",
-        "lakm/laravel-comments": "dev-main",
-        "lakm/laravel-comments-admin-panel": "@dev",
+        "lakm/laravel-comments": "^1.0",
+        "lakm/laravel-comments-admin-panel": "1.0",
         "laravel/framework": "^11.9",
         "laravel/tinker": "^2.9",
         "livewire/livewire": "^3.5",
@@ -68,6 +68,6 @@
             "php-http/discovery": true
         }
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true
 }
