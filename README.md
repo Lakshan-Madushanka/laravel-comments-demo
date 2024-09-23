@@ -24,7 +24,7 @@ Create database.sqlite in database directory
 
 ```bash
     php artisan key:generate
-    php artisan migrate:fresh --seed
+    php artisan migrate --seed
 ```
 Install Commenter
 
