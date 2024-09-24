@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4d2532fe61451359e2d4f8af18640aa7",
+    "content-hash": "06e127a2a515e6658852de0d209eb5e8",
     "packages": [
         {
             "name": "anourvalar/eloquent-serialize",
@@ -2004,23 +2004,24 @@
         },
         {
             "name": "lakm/laravel-comments",
-            "version": "1.4.2",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Lakshan-Madushanka/laravel-comments.git",
-                "reference": "ae1599f0ae387afcea31a48ba6906c30e47eaa44"
+                "reference": "c3b5aab73901c98c70fc16a253411a8603cd31bc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Lakshan-Madushanka/laravel-comments/zipball/ae1599f0ae387afcea31a48ba6906c30e47eaa44",
-                "reference": "ae1599f0ae387afcea31a48ba6906c30e47eaa44",
+                "url": "https://api.github.com/repos/Lakshan-Madushanka/laravel-comments/zipball/c3b5aab73901c98c70fc16a253411a8603cd31bc",
+                "reference": "c3b5aab73901c98c70fc16a253411a8603cd31bc",
                 "shasum": ""
             },
             "require": {
                 "graham-campbell/security": "11.2",
+                "lakm/nopass": "1.*",
                 "laravel/framework": "^10.0|^11.0",
                 "livewire/livewire": "^3.5",
-                "php": "^8.1|^8.2|^8.3",
+                "php": "^8.1",
                 "spatie/laravel-honeypot": "^4.5"
             },
             "require-dev": {
@@ -2066,28 +2067,34 @@
             ],
             "support": {
                 "issues": "https://github.com/Lakshan-Madushanka/laravel-comments/issues",
-                "source": "https://github.com/Lakshan-Madushanka/laravel-comments/tree/1.4.2"
+                "source": "https://github.com/Lakshan-Madushanka/laravel-comments/tree/2.0.0"
             },
-            "time": "2024-08-22T15:45:20+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/Lakshan-Madushanka",
+                    "type": "github"
+                }
+            ],
+            "time": "2024-09-24T04:44:02+00:00"
         },
         {
             "name": "lakm/laravel-comments-admin-panel",
-            "version": "1.1.2",
+            "version": "1.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Lakshan-Madushanka/laravel-comments-admin-panel.git",
-                "reference": "8f845229c02bf8c0477947f144847427e3770fc2"
+                "reference": "978e82586004c1540d38ab7a96936921deb24d3c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Lakshan-Madushanka/laravel-comments-admin-panel/zipball/8f845229c02bf8c0477947f144847427e3770fc2",
-                "reference": "8f845229c02bf8c0477947f144847427e3770fc2",
+                "url": "https://api.github.com/repos/Lakshan-Madushanka/laravel-comments-admin-panel/zipball/978e82586004c1540d38ab7a96936921deb24d3c",
+                "reference": "978e82586004c1540d38ab7a96936921deb24d3c",
                 "shasum": ""
             },
             "require": {
                 "filament/notifications": "^3.2",
                 "filament/tables": "^3.2",
-                "lakm/laravel-comments": "1.*",
+                "lakm/laravel-comments": "^1.0|^2.0",
                 "laravel/framework": "^10.0|^11.0",
                 "php": "^8.1|^8.2|^8.3"
             },
@@ -2132,9 +2139,72 @@
             ],
             "support": {
                 "issues": "https://github.com/Lakshan-Madushanka/laravel-comments-admin-panel/issues",
-                "source": "https://github.com/Lakshan-Madushanka/laravel-comments-admin-panel/tree/1.1.2"
+                "source": "https://github.com/Lakshan-Madushanka/laravel-comments-admin-panel/tree/1.1.4"
             },
-            "time": "2024-08-08T04:25:43+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/Lakshan-Madushanka",
+                    "type": "github"
+                }
+            ],
+            "time": "2024-09-24T05:00:20+00:00"
+        },
+        {
+            "name": "lakm/nopass",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Lakshan-Madushanka/nopass.git",
+                "reference": "0e4a6c0818041d0efa90b834aa04c8424c4313e6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Lakshan-Madushanka/nopass/zipball/0e4a6c0818041d0efa90b834aa04c8424c4313e6",
+                "reference": "0e4a6c0818041d0efa90b834aa04c8424c4313e6",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "^10.0|^11.0",
+                "php": "^8.1"
+            },
+            "require-dev": {
+                "larastan/larastan": "^2.9",
+                "laravel/pint": "^1.17",
+                "orchestra/testbench": "8.*",
+                "pestphp/pest": "^2.34",
+                "pestphp/pest-plugin-laravel": "^2.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "LakM\\NoPass\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Lakshan-Madushanka",
+                    "email": "epmadushanka@gmail.com",
+                    "role": "developer"
+                }
+            ],
+            "description": "Provides passwordless authentication for your laravel projects.",
+            "keywords": [
+                "Authentication",
+                "Passwordless",
+                "auth",
+                "email",
+                "laravel",
+                "otp"
+            ],
+            "support": {
+                "issues": "https://github.com/Lakshan-Madushanka/nopass/issues",
+                "source": "https://github.com/Lakshan-Madushanka/nopass/tree/1.0.0"
+            },
+            "time": "2024-09-20T08:30:09+00:00"
         },
         {
             "name": "laravel/framework",
@@ -10122,9 +10192,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "lakm/laravel-comments-admin-panel": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
