@@ -12,12 +12,20 @@
     <li
         @class([
             "hover:bg-gray-500 p-1 rounded transition",
+             'bg-gray-500' => url()->current() === route('secure.posts.show', ['post' => 1]),
+        ])
+    >
+        <a href="{{route('secure.posts.show', ['post' => 1])}}">Secure Guest Mode</a>
+    </li>
+    <li class="h-6 w-[2px] bg-white"></li>
+    <li
+        @class([
+            "hover:bg-gray-500 p-1 rounded transition",
              'bg-gray-500' => url()->current() === route('articles.show', ['article' => 1]),
         ])
     >
         <a href="{{route('articles.show', ['article' => 1])}}">Auth Mode</a>
     </li>
-
     <li class="h-6 w-[2px] bg-white"></li>
 
     <li
