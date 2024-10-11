@@ -9,6 +9,7 @@ use App\Models\User;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use LakM\Comments\Models\Comment;
+use LakM\Comments\Models\Guest;
 
 class DatabaseSeeder extends Seeder
 {
@@ -24,8 +25,8 @@ class DatabaseSeeder extends Seeder
             'email' => 'test@example.com',
         ]);
 
-        $this->createGuestModePost();
-        $this->createAuthModePost();
+       $this->createGuestModePost();
+       $this->createAuthModePost();
     }
 
     public function createGuestModePost(): void
@@ -37,11 +38,16 @@ class DatabaseSeeder extends Seeder
         $comments = [];
 
         for ($i = 0; $i <= 25; $i++) {
+            $guest = Guest::query()
+                ->create([
+                    'name' => fake()->unique()->name(),
+                    'email' => fake()->unique()->email(),
+                    'ip_address' => fake()->ipv4()
+                ]);
             $comments[] = [
                 'text' => fake()->paragraph(),
-                'guest_name' => fake()->unique()->name(),
-                'guest_email' => fake()->unique()->email(),
-                'ip_address' => fake()->ipv4()
+                'commenter_type' => $guest->getMorphClass(),
+                'commenter_id' => $guest->getKey(),
             ];
         }
         $comments = $post->comments()->createMany($comments);
@@ -53,11 +59,17 @@ class DatabaseSeeder extends Seeder
                 $limit = random_int(10, 20);
 
                 for ($i = 0; $i <= $limit; $i++) {
+                    $guest = Guest::query()
+                        ->create([
+                            'name' => fake()->unique()->name(),
+                            'email' => fake()->unique()->email(),
+                            'ip_address' => fake()->ipv4()
+                        ]);
+
                     $replies[] = [
                         'text' => fake()->paragraph(),
-                        'guest_name' => fake()->unique()->name(),
-                        'guest_email' => fake()->unique()->email(),
-                        'ip_address' => fake()->ipv4()
+                        'commenter_type' => $guest->getMorphClass(),
+                        'commenter_id' => $guest->getKey(),
                     ];
                 }
 
@@ -72,9 +84,13 @@ class DatabaseSeeder extends Seeder
                 $limit = random_int(10, 25);
 
                 for ($i = 0; $i <= $limit; $i++) {
+                    $guest = Guest::query()
+                        ->create(['ip_address' => fake()->ipv4()]);
+
                     $reactions[] = [
                         'type' => fake()->randomElement(array_keys(config('comments.reactions'))),
-                        'ip_address' => fake()->ipv4()
+                        'owner_id' => $guest->getKey(),
+                        'owner_type' => $guest->getMorphClass(),
                     ];
                 }
 
@@ -96,7 +112,6 @@ class DatabaseSeeder extends Seeder
                 'text' => fake()->paragraph(),
                 'commenter_type' => $user->getMorphClass(),
                 'commenter_id' => $user->getAuthIdentifier(),
-                'ip_address' => fake()->ipv4()
             ];
         }
         $comments = $article->comments()->createMany($comments);
@@ -113,7 +128,6 @@ class DatabaseSeeder extends Seeder
                         'text' => fake()->paragraph(),
                         'commenter_type' => $user->getMorphClass(),
                         'commenter_id' => $user->getAuthIdentifier(),
-                        'ip_address' => fake()->ipv4()
                     ];
                 }
 
@@ -130,8 +144,8 @@ class DatabaseSeeder extends Seeder
                 for ($i = 0; $i <= $limit; $i++) {
                     $reactions[] = [
                         'type' => fake()->randomElement(array_keys(config('comments.reactions'))),
-                        'user_id' => User::factory()->create()->getAuthIdentifier(),
-                        'ip_address' => fake()->ipv4()
+                        'owner_id' => User::factory()->create()->getAuthIdentifier(),
+                        'owner_type' => (new User())->getMorphClass()
                     ];
                 }
 
