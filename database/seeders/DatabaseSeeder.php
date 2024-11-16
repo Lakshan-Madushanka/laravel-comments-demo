@@ -91,6 +91,7 @@ class DatabaseSeeder extends Seeder
                         'type' => fake()->randomElement(array_keys(config('comments.reactions'))),
                         'owner_id' => $guest->getKey(),
                         'owner_type' => $guest->getMorphClass(),
+                        'ip_address' => $guest->ip_address,
                     ];
                 }
 
@@ -145,7 +146,8 @@ class DatabaseSeeder extends Seeder
                     $reactions[] = [
                         'type' => fake()->randomElement(array_keys(config('comments.reactions'))),
                         'owner_id' => User::factory()->create()->getAuthIdentifier(),
-                        'owner_type' => (new User())->getMorphClass()
+                        'owner_type' => (new User())->getMorphClass(),
+                        'ip_address' => fake()->ipv4(),
                     ];
                 }
 
