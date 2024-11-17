@@ -18,3 +18,7 @@ yarn-error.log
 /.fleet
 /.idea
 /.vscode
+/database/migrations/*comments*
+/database/migrations/*reactions*
+/database/migrations/*guests*
+/public/vendor/lakm/laravel-comments
