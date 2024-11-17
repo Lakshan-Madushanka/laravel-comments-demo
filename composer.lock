@@ -2004,16 +2004,16 @@
         },
         {
             "name": "lakm/laravel-comments",
-            "version": "2.0.0",
+            "version": "2.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Lakshan-Madushanka/laravel-comments.git",
-                "reference": "c3b5aab73901c98c70fc16a253411a8603cd31bc"
+                "reference": "41ab40c322ad2d6d85e24036ed6413e47fd1948b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Lakshan-Madushanka/laravel-comments/zipball/c3b5aab73901c98c70fc16a253411a8603cd31bc",
-                "reference": "c3b5aab73901c98c70fc16a253411a8603cd31bc",
+                "url": "https://api.github.com/repos/Lakshan-Madushanka/laravel-comments/zipball/41ab40c322ad2d6d85e24036ed6413e47fd1948b",
+                "reference": "41ab40c322ad2d6d85e24036ed6413e47fd1948b",
                 "shasum": ""
             },
             "require": {
@@ -2025,7 +2025,7 @@
                 "spatie/laravel-honeypot": "^4.5"
             },
             "require-dev": {
-                "larastan/larastan": "^2.9",
+                "larastan/larastan": "2.9.8",
                 "orchestra/testbench": "8.*",
                 "pestphp/pest": "^2.34",
                 "pestphp/pest-plugin-laravel": "^2.3",
@@ -2067,7 +2067,7 @@
             ],
             "support": {
                 "issues": "https://github.com/Lakshan-Madushanka/laravel-comments/issues",
-                "source": "https://github.com/Lakshan-Madushanka/laravel-comments/tree/2.0.0"
+                "source": "https://github.com/Lakshan-Madushanka/laravel-comments/tree/2.0.7"
             },
             "funding": [
                 {
@@ -2075,7 +2075,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-09-24T04:44:02+00:00"
+            "time": "2024-11-17T01:17:27+00:00"
         },
         {
             "name": "lakm/laravel-comments-admin-panel",
