@@ -13,29 +13,32 @@
 This is a demo project for the [commenter](https://github.com/Lakshan-Madushanka/laravel-comments) package
 ## Installation
 
-Create .env file and copy the .env.example file content.
+1. Create .env file and copy the .env.example file content.
 
-Install composer dependencies,
+2. Install composer dependencies,
+    ```bash
+        composer install
+    ```
+    
+3. Create database.sqlite in database directory
 
-```bash
-    composer install
-```
-Create database.sqlite in database directory
+4. Generate app key
+    ```bash
+        php artisan key:generate
+    ```
 
-```bash
-    php artisan key:generate
-    php artisan migrate --seed
-```
-Install Commenter
+5. Install Commenter
+    ```bash
+    php artisan commenter:install
+    ```
+6. Migrate and seed the database
+    ```bash
+        php artisan migrate:fresh --seed
+    ```
 
-```bash
-php artisan commenter:install
-```
-
-Install npm dependencies and start dev server
-
-```bash
-    npm install
-    npm run dev
-```
+5. Install npm dependencies and start dev server
+    ```bash
+        npm install
+        npm run dev
+    ```
 
