@@ -36,9 +36,14 @@ This is a demo project for the [commenter](https://github.com/Lakshan-Madushanka
         php artisan migrate:fresh --seed
     ```
 
-5. Install npm dependencies and start dev server
+7. Install and build npm dependencies
     ```bash
         npm install
         npm run dev
     ```
+
+8. Start server
+   ```bash
+       php artisan serve
+   ```    
 
