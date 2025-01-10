@@ -9,7 +9,7 @@
         "filament/notifications": "^3.2",
         "filament/tables": "^3.2",
         "graham-campbell/security": "*",
-        "lakm/laravel-comments": "^2.0",
+        "lakm/laravel-comments": "^2.1",
         "lakm/laravel-comments-admin-panel": "^1.1",
         "laravel/framework": "^11.9",
         "laravel/tinker": "^2.9",

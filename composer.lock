@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "06e127a2a515e6658852de0d209eb5e8",
+    "content-hash": "7e2e3e286c9dad89e5729e8713ad113c",
     "packages": [
         {
             "name": "anourvalar/eloquent-serialize",
@@ -2004,16 +2004,16 @@
         },
         {
             "name": "lakm/laravel-comments",
-            "version": "2.0.7",
+            "version": "2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Lakshan-Madushanka/laravel-comments.git",
-                "reference": "41ab40c322ad2d6d85e24036ed6413e47fd1948b"
+                "reference": "7945d3c96176b24e330c234da3fd6f6e55b24419"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Lakshan-Madushanka/laravel-comments/zipball/41ab40c322ad2d6d85e24036ed6413e47fd1948b",
-                "reference": "41ab40c322ad2d6d85e24036ed6413e47fd1948b",
+                "url": "https://api.github.com/repos/Lakshan-Madushanka/laravel-comments/zipball/7945d3c96176b24e330c234da3fd6f6e55b24419",
+                "reference": "7945d3c96176b24e330c234da3fd6f6e55b24419",
                 "shasum": ""
             },
             "require": {
@@ -2067,7 +2067,7 @@
             ],
             "support": {
                 "issues": "https://github.com/Lakshan-Madushanka/laravel-comments/issues",
-                "source": "https://github.com/Lakshan-Madushanka/laravel-comments/tree/2.0.7"
+                "source": "https://github.com/Lakshan-Madushanka/laravel-comments/tree/2.1.1"
             },
             "funding": [
                 {
@@ -2075,7 +2075,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-11-17T01:17:27+00:00"
+            "time": "2025-01-10T04:37:51+00:00"
         },
         {
             "name": "lakm/laravel-comments-admin-panel",
